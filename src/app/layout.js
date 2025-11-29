@@ -4,6 +4,7 @@ import './globals.css';
 // to avoid client-side only imports in metadata
 
 export const metadata = {
+  metadataBase: new URL('https://code-wave.pages.dev'),
   title: "Infinity CodeWave | Nepal's Premier Computational Mathematics Hackathon",
   description: "Join Infinity CodeWave on April 24-25, 2026 at Kathmandu University. A 48-hour hackathon where mathematics meets code. Part of KUMSC's annual Infinity event. Free admission for all students!",
   keywords: [
