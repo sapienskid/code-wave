@@ -24,8 +24,8 @@ export const metadata = {
   creator: "Kathmandu University Mathematics Students' Club",
   publisher: "KUMSC",
   openGraph: {
-    title: "Infinity CodeWave | Where Math Meets Code",
-    description: "Join Nepal's premier computational mathematics hackathon on April 24-25, 2026. Part of KUMSC's annual Infinity event. Free admission!",
+    title: "Infinity CodeWave | Fusion of computational models & data intelligence",
+    description: "Join Nepal's premier computational mathematics and data science hackathon on April 24-25, 2026. Part of KUMSC's annual Infinity event. Free admission!",
     url: "https://codewave.kumsc.org",
     siteName: "Infinity CodeWave",
     locale: "en_US",
@@ -35,14 +35,14 @@ export const metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "CodeWave 3.0 - Nepal's Premier Computational Mathematics Hackathon"
+        alt: "CodeWave 3.0 - Nepal's Premier Computational Mathematics and Data Science Hackathon"
       }
     ]
   },
   twitter: {
     card: "summary_large_image",
     title: "Infinity CodeWave | Nepal's Premier Hackathon",
-    description: "48-hour hackathon where mathematics meets code. April 24-25, 2026 at Kathmandu University. Part of KUMSC's Infinity event!",
+    description: "48-hour hackathon where data and mathematics meets code. April 24-25, 2026 at Kathmandu University. Part of KUMSC's Infinity event!",
     images: ["/og-image.png"],
   },
   robots: {
