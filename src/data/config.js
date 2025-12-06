@@ -14,8 +14,8 @@ export const siteConfig = {
   
   // SEO Configuration
   seo: {
-    title: "Infinity CodeWave | Nepal's Premier Computational Mathematics Hackathon",
-    description: "Join Infinity CodeWave on April 24-25, 2026 at Kathmandu University. A 48-hour hackathon where mathematics meets code. Part of KUMSC's annual Infinity event. Free admission for all students!",
+    title: "Infinity CodeWave | Nepal's Premier Computational Mathematics and Data Science Hackathon",
+    description: "Join Infinity CodeWave on April 24-25, 2026 at Kathmandu University. A 48-hour hackathon where data and mathematics meets code. Part of KUMSC's annual Infinity event. Free admission for all students!",
     keywords: [
       "hackathon",
       "CodeWave",
@@ -25,6 +25,7 @@ export const siteConfig = {
       "Nepal hackathon",
       "coding competition",
       "computational mathematics",
+      "data science hackathon",
       "AI hackathon",
       "student hackathon",
       "free hackathon Nepal"
