@@ -9,7 +9,7 @@ export const siteConfig = {
   eventDate: "2026-04-24T00:00:00+05:45", // ISO format with Nepal timezone for countdown
   location: "Kathmandu University, Dhulikhel",
   admission: "Free for all Students",
-  registrationLink: "#", // TODO: Update with actual registration link
+  registrationLink: "https://forms.gle/aHUx33fteR7MkLfW9", // TODO: Update with actual registration link
   mlhCodeOfConduct: "https://static.mlh.io/docs/mlh-code-conduct.pdf",
   
   // SEO Configuration
@@ -44,9 +44,9 @@ export const siteConfig = {
   ],
 
   stats: [
-    { value: "30+", label: "Universities" },
+    { value: "10+", label: "Universities" },
     { value: "50+", label: "Partners" },
-    { value: "Rs. 5L+", label: "in Prizes" }
+    { value: "Rs. 1L+", label: "in Prizes" }
   ],
 
   tracks: [
