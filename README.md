@@ -1,8 +1,8 @@
-🌊 Infinity CodeWave - Nepal's Premier Computational Mathematics Hackathon
-
+🌊 Infinity CodeWave - Nepal's Premier Computational Mathematics and Data Science Hackathon
+                       
 ![CodeWave Preview](https://code-wave.pages.dev/og-image.png)
 
-A 48-hour hackathon where mathematics meets code!
+A 48-hour hackathon where data and mathematics meets code!
 
 ---
 

@@ -2,8 +2,8 @@ import { Brain, Shield, Leaf, Cpu, Lightbulb, Linkedin, Instagram, Facebook } fr
 
 export const siteConfig = {
   name: "Infinity CodeWave",
-  tagline: "Where Math Meets Code",
-  subTagline: "Nepal's Premier Computational Mathematics Hackathon",
+  tagline: "Fusion of computational models & data intelligence",
+  subTagline: "Nepal's Premier Computational Mathematics and Data Science Hackathon",
   eventName: "Infinity", // KUMSC's annual event
   date: "April 24-25, 2026",
   eventDate: "2026-04-24T00:00:00+05:45", // ISO format with Nepal timezone for countdown
