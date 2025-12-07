@@ -9,7 +9,7 @@ const About = () => {
           {/* Main content - spans 7 columns */}
           <div className="lg:col-span-7 border border-[#E6E1F0]/20 p-8 md:p-12">
             <h2 className="text-5xl font-bold mb-6 leading-tight">
-              About <span className="text-[#d946ef]">{siteConfig.name.split(' ')[0]}</span>
+              About <span className="text-[#d946ef]">{siteConfig.name.split(' ')[1]}</span>
             </h2>
             <div className="w-20 h-1 bg-[#d946ef] mb-8" />
             <p className="text-lg leading-relaxed opacity-80 mb-6">

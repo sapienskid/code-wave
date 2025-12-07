@@ -2,9 +2,9 @@ import { Brain, Shield, Leaf, Cpu, Lightbulb, Linkedin, Instagram, Facebook } fr
 
 export const siteConfig = {
   name: "Infinity CodeWave",
-  tagline: "Fusion of computational models & data intelligence",
-  subTagline: "Nepal's Premier Computational Mathematics and Data Science Hackathon",
-  eventName: "Infinity", // KUMSC's annual event
+  tagline: "Engineered by Math. Powered by Code.",
+  subTagline: "Nepal's Premier Data & Computing Hackathon.",
+  eventName: "Infinity CodeWave", 
   date: "April 24-25, 2026",
   eventDate: "2026-04-24T00:00:00+05:45", // ISO format with Nepal timezone for countdown
   location: "Kathmandu University, Dhulikhel",
@@ -14,8 +14,8 @@ export const siteConfig = {
   
   // SEO Configuration
   seo: {
-    title: "Infinity CodeWave | Nepal's Premier Computational Mathematics and Data Science Hackathon",
-    description: "Join Infinity CodeWave on April 24-25, 2026 at Kathmandu University. A 48-hour hackathon where data and mathematics meets code. Part of KUMSC's annual Infinity event. Free admission for all students!",
+    title: "Infinity CodeWave | Nepal's Premier Data & Computing Hackathon",
+    description: "Join Infinity CodeWave on April 24-25, 2026 at Kathmandu University. Engineered by Math. Powered by Code. Nepal's Premier Data & Computing Hackathon. Part of KUMSC's annual Infinity event. Free admission for all students!",
     keywords: [
       "hackathon",
       "CodeWave",
@@ -46,7 +46,7 @@ export const siteConfig = {
   stats: [
     { value: "10+", label: "Universities" },
     { value: "50+", label: "Partners" },
-    { value: "Rs. 1L+", label: "in Prizes" }
+    { value: "NPR 1L+", label: "in Prizes" }
   ],
 
   tracks: [
