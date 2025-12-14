@@ -9,14 +9,14 @@ const Register = () => {
         <div className="border-2 border-[#E6E1F0]/20 p-12 md:p-16 text-center">
           <h2 className="text-6xl font-bold mb-6">
             READY TO BUILD<br />
-            <span className="text-[#d946ef]">THE FUTURE?</span>
+            <span className="text-[#8976FB]">THE FUTURE?</span>
           </h2>
           <p className="text-xl opacity-80 mb-4">Registration opens soon. Secure your spot and be part of Nepal's premier hackathon experience.</p>
           <p className="text-sm font-mono opacity-60 mb-12">Limited to 120 participants • Admission: {siteConfig.admission}</p>
           
           <a 
             href={siteConfig.registrationLink}
-            className="inline-block group relative px-16 py-6 bg-[#d946ef] text-xl font-bold hover:scale-105 hover:shadow-2xl hover:shadow-[#d946ef]/50 transition-all duration-300"
+            className="inline-block group relative px-16 py-6 bg-[#8976FB] text-xl font-bold hover:scale-105 hover:shadow-2xl hover:shadow-[#8976FB]/50 transition-all duration-300"
           >
             <span className="relative z-10 flex items-center gap-3">
               REGISTER NOW

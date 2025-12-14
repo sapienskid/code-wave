@@ -21,13 +21,13 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         {/* Logo */}
         <div className="text-2xl font-bold tracking-tighter">
-          <span className="text-[#d946ef]">Infinity</span> CodeWave
+          <span className="text-[#8976FB]">Infinity</span> CodeWave
         </div>
 
         {/* Register Button */}
         <a
           href={siteConfig.registrationLink}
-          className="px-6 py-2 bg-[#d946ef] text-white text-sm font-bold rounded-sm hover:bg-[#d946ef]/90 transition-all hover:scale-105"
+          className="px-6 py-2 bg-[#8976FB] text-white text-sm font-bold rounded-sm hover:bg-[#8976FB]/90 transition-all hover:scale-105"
         >
           Register Interest
         </a>

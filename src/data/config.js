@@ -3,51 +3,66 @@ import { Brain, Shield, Leaf, Cpu, Lightbulb, Linkedin, Instagram, Facebook } fr
 export const siteConfig = {
   name: "Infinity CodeWave",
   tagline: "Engineered by Math. Powered by Code.",
-  subTagline: "Nepal's Premier Data & Computing Hackathon.",
-  eventName: "Infinity CodeWave", 
+  subTagline: "Nepal's Premier Data & Computing Hackathon",
+  eventName: "Infinity CodeWave",
+  parentEvent: "Infinity", // Annual event by KUMSC
   date: "April 24-25, 2026",
+  duration: "24 Hours",
   eventDate: "2026-04-24T00:00:00+05:45", // ISO format with Nepal timezone for countdown
   location: "Kathmandu University, Dhulikhel",
   admission: "Free for all Students",
-  registrationLink: "https://forms.gle/aHUx33fteR7MkLfW9", // TODO: Update with actual registration link
+  registrationLink: "https://forms.gle/aHUx33fteR7MkLfW9",
+  mlhPartnership: "in-process", // Partnership with Major League Hacking (MLH) is in process
   mlhCodeOfConduct: "https://static.mlh.io/docs/mlh-code-conduct.pdf",
+  sponsorshipBrochure: "/hackathon_brochure.pdf",
   
   // SEO Configuration
   seo: {
     title: "Infinity CodeWave | Nepal's Premier Data & Computing Hackathon",
-    description: "Join Infinity CodeWave on April 24-25, 2026 at Kathmandu University. Engineered by Math. Powered by Code. Nepal's Premier Data & Computing Hackathon. Part of KUMSC's annual Infinity event. Free admission for all students!",
+    description: "Infinity CodeWave is Nepal's premier data science and computing hackathon, part of the annual Infinity event organized by Kathmandu University Mathematics Students' Club (KUMSC). Join 120+ developers for 24 hours of innovation. Free admission for all students!",
     keywords: [
-      "hackathon",
-      "CodeWave",
+      "Infinity CodeWave",
+      "hackathon Nepal",
       "Kathmandu University",
       "KUMSC",
-      "mathematics hackathon",
-      "Nepal hackathon",
-      "coding competition",
-      "computational mathematics",
+      "Kathmandu University Mathematics Students Club",
+      "Infinity event",
+      "MLH hackathon",
+      "Major League Hacking",
       "data science hackathon",
       "AI hackathon",
+      "machine learning",
+      "quantum computing",
+      "cybersecurity",
       "student hackathon",
-      "free hackathon Nepal"
+      "free hackathon Nepal",
+      "Dhulikhel",
+      "computational mathematics"
     ],
-    ogImage: "/og-image.png", // TODO: Add actual OG image
-    siteUrl: "https://codewave.kumsc.org", // TODO: Update with actual URL
-    twitterHandle: "@kumsc_ku", // TODO: Update with actual handle
+    ogImage: "/og-image.png",
+    siteUrl: "https://code-wave.pages.dev",
     locale: "en_US",
     type: "website"
   },
   
   socialLinks: [
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
-    { icon: Instagram, href: "#", label: "Instagram" },
-    { icon: Facebook, href: "#", label: "Facebook" }
+    { icon: Linkedin, href: "https://linkedin.com/company/infinitycodewave", label: "LinkedIn" },
+    { icon: Instagram, href: "https://instagram.com/infinitycodewave", label: "Instagram" },
+    { icon: Facebook, href: "https://facebook.com/infinitycodewave", label: "Facebook" }
   ],
 
   stats: [
-    { value: "10+", label: "Universities" },
-    { value: "50+", label: "Partners" },
-    { value: "NPR 1L+", label: "in Prizes" }
+    { value: "120+", label: "Developers" },
+    { value: "24", label: "Hours" },
+    { value: "10+", label: "Universities" }
   ],
+
+  // KUMSC Reach Statistics
+  kumscReach: {
+    activeMembers: "500+",
+    corporatePartnerships: "50+",
+    annualEventAttendees: "3,000+"
+  },
 
   tracks: [
     {
@@ -105,20 +120,100 @@ export const siteConfig = {
     },
     {
       question: "When and where is Infinity CodeWave?",
-      answer: "Infinity CodeWave takes place on April 24-25, 2026 at Kathmandu University, Dhulikhel. The event runs for 48 hours and is part of KUMSC's annual Infinity event."
+      answer: "Infinity CodeWave takes place at Kathmandu University, Dhulikhel. The event runs for 24 hours and is part of Infinity, the annual flagship event organized by Kathmandu University Mathematics Students' Club (KUMSC)."
     }
   ],
 
+  // Sponsorship tiers from brochure
+  sponsorshipTiers: [
+    {
+      name: "Title Sponsor",
+      tier: "title",
+      price: "NPR 200,000+",
+      limit: 1,
+      benefits: [
+        "Event naming: '[Your Brand] CodeWave 2026'",
+        "Full participant database (resumes, GitHub, skills)",
+        "Keynote speech (15 min) at Opening",
+        "8 dedicated social media posts",
+        "Premium booth with prime location",
+        "Featured in all press releases & media",
+        "Lead judge & challenge design input",
+        "First pick: Interview top 10 winners",
+        "Logo on all banners, stage backdrop & swag"
+      ]
+    },
+    {
+      name: "Diamond Sponsor",
+      tier: "diamond",
+      price: "NPR 100,000–150,000",
+      limit: 3,
+      benefits: [
+        "Logo on banners & stage backdrop",
+        "Speaking slot (7 min) at hackathon",
+        "Recruitment booth at venue",
+        "5 dedicated social media posts",
+        "Judge position on panel",
+        "Featured in event recap & highlight videos",
+        "Winner resumes: Access to top 30 participants"
+      ]
+    },
+    {
+      name: "Gold Sponsor",
+      tier: "gold",
+      price: "NPR 50,000–75,000",
+      benefits: [
+        "Promo table at venue",
+        "Mentorship role during hackathon",
+        "Logo on website with backlink",
+        "Logo on banners & materials",
+        "3 social media posts (shared)",
+        "Shoutout at opening ceremony"
+      ]
+    },
+    {
+      name: "Silver Sponsor",
+      tier: "silver",
+      price: "NPR 20,000–40,000",
+      benefits: [
+        "Logo on website",
+        "Name on banners",
+        "1 social media post (shared)",
+        "Verbal acknowledgment at event",
+        "Certificate of appreciation"
+      ]
+    },
+    {
+      name: "Bronze / In-Kind",
+      tier: "bronze",
+      price: "NPR 10,000+ or equivalent",
+      benefits: [
+        "Name on website",
+        "Certificate of appreciation",
+        "Social media thank-you"
+      ],
+      note: "In-kind contributions welcome: Food, Beverages, Prizes, Printing, Venue, Software licenses"
+    }
+  ],
+
+  // Current sponsors (placeholder slots showing available opportunities)
   sponsors: [
-    { name: "Platinum Sponsor", tier: "Platinum", logo: null },
-    { name: "Platinum Sponsor", tier: "Platinum", logo: null },
-    { name: "Gold Sponsor", tier: "Gold", logo: null },
-    { name: "Gold Sponsor", tier: "Gold", logo: null },
-    { name: "Gold Sponsor", tier: "Gold", logo: null },
-    { name: "Silver Sponsor", tier: "Silver", logo: null },
-    { name: "Silver Sponsor", tier: "Silver", logo: null },
-    { name: "Bronze Sponsor", tier: "Bronze", logo: null },
-    { name: "Bronze Sponsor", tier: "Bronze", logo: null },
+    // Title Sponsor - Limited to 1
+    { name: "Your Brand Here", tier: "title", logo: null, website: null },
+    // Diamond Sponsors - Limited to 3
+    { name: "Diamond Partner", tier: "diamond", logo: null, website: null },
+    { name: "Diamond Partner", tier: "diamond", logo: null, website: null },
+    { name: "Diamond Partner", tier: "diamond", logo: null, website: null },
+    // Gold Sponsors
+    { name: "Gold Partner", tier: "gold", logo: null, website: null },
+    { name: "Gold Partner", tier: "gold", logo: null, website: null },
+    { name: "Gold Partner", tier: "gold", logo: null, website: null },
+    // Silver Sponsors
+    { name: "Silver Partner", tier: "silver", logo: null, website: null },
+    { name: "Silver Partner", tier: "silver", logo: null, website: null },
+    // Bronze / In-Kind Sponsors
+    { name: "Bronze Partner", tier: "bronze", logo: null, website: null },
+    { name: "Bronze Partner", tier: "bronze", logo: null, website: null },
   ],
 
   // Organizer information
@@ -126,7 +221,29 @@ export const siteConfig = {
     name: "Kathmandu University Mathematics Students' Club (KUMSC)",
     shortName: "KUMSC",
     supportedBy: "Department of Mathematics, Kathmandu University",
-    email: "mathsclub@ku.edu.np", // TODO: Update with actual email
-    website: "https://kumsc.org" // TODO: Update with actual website
+    email: "mathsclub@ku.edu.np",
+    website: "https://mathsclub.ku.edu.np"
+  },
+
+  // Event Lead Contact
+  eventLead: {
+    name: "Sabin Pokharel",
+    email: "savinpokharel@gmail.com"
+  },
+
+  // Target Audience
+  targetAudience: [
+    "B.Sc. in Computational Mathematics",
+    "Bachelor of Data Science",
+    "Computer Science and Engineering Undergrads",
+    "Students from any faculty who want to solve problems"
+  ],
+
+  // Budget Allocation
+  budgetAllocation: {
+    prizes: "50%",
+    foodAndDrinks: "20%",
+    swag: "15%",
+    marketingAndTech: "15%"
   }
 };

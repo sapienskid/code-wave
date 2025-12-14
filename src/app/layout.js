@@ -1,32 +1,48 @@
 import './globals.css';
 
-// Note: siteConfig contains React components (icons), so we define static SEO here
-// to avoid client-side only imports in metadata
+// SEO Metadata for Infinity CodeWave
+// A 24-hour hackathon organized by Kathmandu University Mathematics Students' Club (KUMSC)
+// Part of the annual Infinity event
 
 export const metadata = {
   metadataBase: new URL('https://code-wave.pages.dev'),
-  title: "Infinity CodeWave | Nepal's Premier Computational Mathematics Hackathon",
-  description: "Join Infinity CodeWave on April 24-25, 2026 at Kathmandu University. A 48-hour hackathon where mathematics meets code. Part of KUMSC's annual Infinity event. Free admission for all students!",
+  title: {
+    default: "Infinity CodeWave | Nepal's Premier Data & Computing Hackathon",
+    template: "%s | Infinity CodeWave"
+  },
+  description: "Infinity CodeWave is Nepal's premier data science and computing hackathon, part of the annual Infinity event organized by Kathmandu University Mathematics Students' Club (KUMSC). Join 120+ developers for 24 hours of innovation in AI, Quantum Computing, Cybersecurity & more. Free admission for all students!",
   keywords: [
-    "hackathon",
-    "CodeWave",
-    "Kathmandu University",
+    "Infinity CodeWave",
+    "hackathon Nepal",
+    "Kathmandu University hackathon",
     "KUMSC",
-    "mathematics hackathon",
-    "Nepal hackathon",
-    "coding competition",
+    "Kathmandu University Mathematics Students Club",
+    "Infinity event",
+    "data science hackathon",
+    "computing hackathon",
+    "AI hackathon Nepal",
+    "machine learning competition",
+    "quantum computing",
+    "cybersecurity hackathon",
+    "student hackathon Nepal",
+    "free hackathon",
+    "Dhulikhel",
+    "tech event Nepal",
+    "MLH hackathon",
+    "Major League Hacking",
     "computational mathematics",
-    "AI hackathon",
-    "student hackathon",
-    "free hackathon Nepal"
+    "coding competition Nepal"
   ],
-  authors: [{ name: "KUMSC", url: "https://kumsc.org" }],
-  creator: "Kathmandu University Mathematics Students' Club",
-  publisher: "KUMSC",
+  authors: [
+    { name: "Kathmandu University Mathematics Students' Club", url: "https://mathsclub.ku.edu.np" }
+  ],
+  creator: "Kathmandu University Mathematics Students' Club (KUMSC)",
+  publisher: "Kathmandu University Mathematics Students' Club",
+  category: "Technology",
   openGraph: {
-    title: "Infinity CodeWave | Fusion of computational models & data intelligence",
-    description: "Join Nepal's premier computational mathematics and data science hackathon on April 24-25, 2026. Part of KUMSC's annual Infinity event. Free admission!",
-    url: "https://codewave.kumsc.org",
+    title: "Infinity CodeWave | Nepal's Premier Data & Computing Hackathon",
+    description: "Part of KUMSC's annual Infinity event. Join 120+ developers for a 24-hour hackathon at Kathmandu University. AI, Quantum Computing, Cybersecurity & more. Free for all students!",
+    url: "https://code-wave.pages.dev",
     siteName: "Infinity CodeWave",
     locale: "en_US",
     type: "website",
@@ -35,15 +51,9 @@ export const metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "CodeWave 3.0 - Nepal's Premier Computational Mathematics and Data Science Hackathon"
+        alt: "Infinity CodeWave - Nepal's Premier Data & Computing Hackathon by KUMSC"
       }
     ]
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Infinity CodeWave | Nepal's Premier Hackathon",
-    description: "48-hour hackathon where data and mathematics meets code. April 24-25, 2026 at Kathmandu University. Part of KUMSC's Infinity event!",
-    images: ["/og-image.png"],
   },
   robots: {
     index: true,
@@ -56,8 +66,11 @@ export const metadata = {
       "max-snippet": -1,
     },
   },
+  alternates: {
+    canonical: "https://code-wave.pages.dev"
+  },
   verification: {
-    // TODO: Add verification tokens when available
+    // Add verification tokens when available
     // google: "verification_token",
   },
 };
