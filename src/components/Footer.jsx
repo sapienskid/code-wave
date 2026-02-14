@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { siteConfig } from '../data/config';
 
 const Footer = () => {
@@ -15,15 +16,15 @@ const Footer = () => {
             <p className="text-sm opacity-60 mb-2">Organized by {siteConfig.organizer.name}</p>
             <p className="text-sm opacity-60">Supported by {siteConfig.organizer.supportedBy}</p>
             
-            {/* MLH Link */}
-            <a 
-              href={siteConfig.mlhCodeOfConduct}
-              target="_blank" 
-              rel="noreferrer"
-              className="inline-block mt-4 text-sm font-bold text-[#8976FB] hover:underline"
-            >
-              MLH Code of Conduct
-            </a>
+            {/* Links */}
+            <div className="mt-4">
+              <Link 
+                href="/terms-and-conditions"
+                className="text-sm font-bold text-[#8976FB] hover:underline"
+              >
+                Terms & Conditions
+              </Link>
+            </div>
           </div>
 
           {/* Right - 6 columns */}

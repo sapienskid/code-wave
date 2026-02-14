@@ -12,8 +12,6 @@ export const siteConfig = {
   location: "Kathmandu University, Dhulikhel",
   admission: "Free for all Students",
   registrationLink: "https://forms.gle/aHUx33fteR7MkLfW9",
-  mlhPartnership: "in-process", // Partnership with Major League Hacking (MLH) is in process
-  mlhCodeOfConduct: "https://static.mlh.io/docs/mlh-code-conduct.pdf",
   sponsorshipBrochure: "/hackathon_brochure.pdf",
   
   // SEO Configuration
@@ -27,8 +25,6 @@ export const siteConfig = {
       "KUMSC",
       "Kathmandu University Mathematics Students Club",
       "Infinity event",
-      "MLH hackathon",
-      "Major League Hacking",
       "data science hackathon",
       "AI hackathon",
       "machine learning",

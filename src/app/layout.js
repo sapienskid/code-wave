@@ -28,8 +28,7 @@ export const metadata = {
     "free hackathon",
     "Dhulikhel",
     "tech event Nepal",
-    "MLH hackathon",
-    "Major League Hacking",
+
     "computational mathematics",
     "coding competition Nepal"
   ],
