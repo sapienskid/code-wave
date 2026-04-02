@@ -65,14 +65,10 @@ const Hero = () => {
       <div className="absolute top-24 left-8 w-16 h-16 border-l-2 border-t-2 border-[#8976FB]/30 pointer-events-none" />
       <div className="absolute bottom-24 right-8 w-16 h-16 border-r-2 border-b-2 border-[#8976FB]/30 pointer-events-none" />
 
-      {/* MLH / Part of Infinity badge */}
-      <div className="relative z-10 mb-8 flex items-center gap-3" style={{ opacity }}>
+      {/* Part of Infinity badge */}
+      <div className="relative z-10 mb-8" style={{ opacity }}>
         <span className="px-3 py-1 border border-[#8976FB]/40 text-[#8976FB] text-xs font-mono tracking-widest">
           PART OF INFINITY 2026
-        </span>
-        <span className="text-[#E6E1F0]/30 text-xs">•</span>
-        <span className="px-3 py-1 border border-[#E6E1F0]/20 text-[#E6E1F0]/50 text-xs font-mono tracking-widest">
-          MLH MEMBER EVENT
         </span>
       </div>
 

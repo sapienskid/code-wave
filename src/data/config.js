@@ -6,12 +6,12 @@ export const siteConfig = {
   subTagline: "Nepal's Premier Data & Computing Hackathon",
   eventName: "Infinity CodeWave",
   parentEvent: "Infinity",
-  date: "April 24-25, 2026",
+  date: "April 25-26, 2026",
   duration: "24 Hours",
-  eventDate: "2026-04-24T10:00:00+05:45",
+  eventDate: "2026-04-25T10:00:00+05:45",
   location: "Kathmandu University, Dhulikhel",
   admission: "Free for all Students",
-  registrationLink: "https://forms.gle/aHUx33fteR7MkLfW9",
+  registrationLink: "https://forms.gle/z7c6eVqJuyKA3R5F8",
   sponsorshipBrochure: "/hackathon_brochure.pdf",
 
   seo: {

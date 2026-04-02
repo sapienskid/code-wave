@@ -33,7 +33,7 @@ const TermsAndConditions = () => {
               Terms & Conditions
             </h1>
             <p className="text-lg opacity-60">
-              Infinity CodeWave Hackathon — April 24-25, 2026
+              Infinity CodeWave Hackathon — April 25-26, 2026
             </p>
           </div>
 
@@ -113,7 +113,7 @@ const TermsAndConditions = () => {
             <h2 className="text-2xl font-bold mb-4 text-[#8976FB]">3. Hackathon Rules</h2>
             <div className="space-y-4 opacity-80">
               <p>
-                <strong>3.1 Project Timeline:</strong> All coding and development work must begin at the official start time of the hackathon (April 24, 2026, 10:00 AM NST). Pre-written code, templates, and third-party libraries are allowed, but the core functionality of your project must be developed during the event.
+                <strong>3.1 Project Timeline:</strong> All coding and development work must begin at the official start time of the hackathon (April 25, 2026, 10:00 AM NST). Pre-written code, templates, and third-party libraries are allowed, but the core functionality of your project must be developed during the event.
               </p>
               <p>
                 <strong>3.2 Original Work:</strong> Projects must be original work created during the hackathon. While you may use open-source libraries and APIs, the final submission must demonstrate substantial original development.
