@@ -122,8 +122,6 @@ const Sponsors = () => {
           </div>
         </div>
 
-        {/* Tech Partners */}
-        <TechPartners />
 
         {/* Sponsor tiers */}
         {Object.entries(sponsorsByTier).map(([tierKey, sponsors]) => {
