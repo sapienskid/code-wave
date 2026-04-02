@@ -1,46 +1,33 @@
-import { Brain, Shield, Leaf, Cpu, Lightbulb, Linkedin, Instagram, Facebook } from 'lucide-react';
+import { Brain, Shield, Leaf, Lightbulb, Linkedin, Instagram, Facebook } from 'lucide-react';
 
 export const siteConfig = {
   name: "Infinity CodeWave",
   tagline: "Engineered by Math. Powered by Code.",
   subTagline: "Nepal's Premier Data & Computing Hackathon",
   eventName: "Infinity CodeWave",
-  parentEvent: "Infinity", // Annual event by KUMSC
+  parentEvent: "Infinity",
   date: "April 24-25, 2026",
   duration: "24 Hours",
-  eventDate: "2026-04-24T00:00:00+05:45", // ISO format with Nepal timezone for countdown
+  eventDate: "2026-04-24T10:00:00+05:45",
   location: "Kathmandu University, Dhulikhel",
   admission: "Free for all Students",
   registrationLink: "https://forms.gle/aHUx33fteR7MkLfW9",
   sponsorshipBrochure: "/hackathon_brochure.pdf",
-  
-  // SEO Configuration
+
   seo: {
     title: "Infinity CodeWave | Nepal's Premier Data & Computing Hackathon",
     description: "Infinity CodeWave is Nepal's premier data science and computing hackathon, part of the annual Infinity event organized by Kathmandu University Mathematics Students' Club (KUMSC). Join 120+ developers for 24 hours of innovation. Free admission for all students!",
     keywords: [
-      "Infinity CodeWave",
-      "hackathon Nepal",
-      "Kathmandu University",
-      "KUMSC",
-      "Kathmandu University Mathematics Students Club",
-      "Infinity event",
-      "data science hackathon",
-      "AI hackathon",
-      "machine learning",
-      "quantum computing",
-      "cybersecurity",
-      "student hackathon",
-      "free hackathon Nepal",
-      "Dhulikhel",
-      "computational mathematics"
+      "Infinity CodeWave", "hackathon Nepal", "Kathmandu University", "KUMSC",
+      "data science hackathon", "AI hackathon", "cybersecurity", "student hackathon",
+      "free hackathon Nepal", "Dhulikhel", "computational mathematics"
     ],
     ogImage: "/og-image.png",
     siteUrl: "https://code-wave.pages.dev",
     locale: "en_US",
     type: "website"
   },
-  
+
   socialLinks: [
     { icon: Linkedin, href: "https://linkedin.com/company/infinitycodewave", label: "LinkedIn" },
     { icon: Instagram, href: "https://instagram.com/infinitycodewave", label: "Instagram" },
@@ -53,7 +40,6 @@ export const siteConfig = {
     { value: "10+", label: "Universities" }
   ],
 
-  // KUMSC Reach Statistics
   kumscReach: {
     activeMembers: "500+",
     corporatePartnerships: "50+",
@@ -80,12 +66,6 @@ export const siteConfig = {
       examples: "Energy-efficient optimization, disaster response models."
     },
     {
-      icon: Cpu,
-      title: "Next-Gen Tech & Quantum",
-      description: "Quantum computing, post-quantum cryptography, futuristic algorithms.",
-      examples: "Quantum-inspired algorithms, secure quantum communication demos."
-    },
-    {
       icon: Lightbulb,
       title: "Open Innovation (Wildcard)",
       description: "Free track for hackers to build anything creative with math + computing.",
@@ -100,27 +80,26 @@ export const siteConfig = {
     },
     {
       question: "Do I need a team?",
-      answer: "You can come solo or with a team of up to 4. Don't have a team? No worries! We'll have team formation activities at the start of the event."
+      answer: "You can come solo or with a team of up to 4. Don't have a team? No worries — we'll have team formation activities at the start of the event."
     },
     {
       question: "Who can participate?",
-      answer: "Any student (High School or University) with a valid ID. Both undergraduate and graduate students are welcome."
+      answer: "Any student (High School or University) with a valid student ID. Both undergraduate and graduate students are welcome."
     },
     {
       question: "What should I bring?",
-      answer: "Bring your laptop, charger, student ID, and any hardware you want to hack with. We'll provide food, drinks, WiFi, and a great hacking environment!"
+      answer: "Bring your laptop, charger, student ID, and any hardware you want to hack with. We provide food, drinks, WiFi, and a great hacking environment."
     },
     {
       question: "Do I need to know advanced math?",
-      answer: "Not at all! While the hackathon emphasizes computational mathematics, projects at all skill levels are welcome. Mentors will be available to help."
+      answer: "Not at all! While we emphasize computational mathematics, projects at all skill levels are welcome. Mentors will be available throughout."
     },
     {
       question: "When and where is Infinity CodeWave?",
-      answer: "Infinity CodeWave takes place at Kathmandu University, Dhulikhel. The event runs for 24 hours and is part of Infinity, the annual flagship event organized by Kathmandu University Mathematics Students' Club (KUMSC)."
+      answer: "April 24–25, 2026 at Kathmandu University, Dhulikhel. It's part of Infinity, the annual flagship event organized by KUMSC."
     }
   ],
 
-  // Sponsorship tiers from brochure
   sponsorshipTiers: [
     {
       name: "Title Sponsor",
@@ -140,8 +119,8 @@ export const siteConfig = {
       ]
     },
     {
-      name: "Diamond Sponsor",
-      tier: "diamond",
+      name: "Platinum Sponsor",
+      tier: "platinum",
       price: "NPR 100,000–150,000",
       limit: 3,
       benefits: [
@@ -192,27 +171,27 @@ export const siteConfig = {
     }
   ],
 
-  // Current sponsors (placeholder slots showing available opportunities)
+  // Tech partners (confirmed: GitHub, ElevenLabs, Adobe Firefly)
+  techPartners: [
+    { name: "GitHub", logo: null, website: "https://github.com" },
+    { name: "ElevenLabs", logo: null, website: "https://elevenlabs.io" },
+    { name: "Adobe Firefly", logo: null, website: "https://firefly.adobe.com" }
+  ],
+
   sponsors: [
-    // Title Sponsor - Limited to 1
     { name: "Your Brand Here", tier: "title", logo: null, website: null },
-    // Diamond Sponsors - Limited to 3
-    { name: "Diamond Partner", tier: "diamond", logo: null, website: null },
-    { name: "Diamond Partner", tier: "diamond", logo: null, website: null },
-    { name: "Diamond Partner", tier: "diamond", logo: null, website: null },
-    // Gold Sponsors
+    { name: "Platinum Partner", tier: "platinum", logo: null, website: null },
+    { name: "Platinum Partner", tier: "platinum", logo: null, website: null },
+    { name: "Platinum Partner", tier: "platinum", logo: null, website: null },
     { name: "Gold Partner", tier: "gold", logo: null, website: null },
     { name: "Gold Partner", tier: "gold", logo: null, website: null },
     { name: "Gold Partner", tier: "gold", logo: null, website: null },
-    // Silver Sponsors
     { name: "Silver Partner", tier: "silver", logo: null, website: null },
     { name: "Silver Partner", tier: "silver", logo: null, website: null },
-    // Bronze / In-Kind Sponsors
     { name: "Bronze Partner", tier: "bronze", logo: null, website: null },
     { name: "Bronze Partner", tier: "bronze", logo: null, website: null },
   ],
 
-  // Organizer information
   organizer: {
     name: "Kathmandu University Mathematics Students' Club (KUMSC)",
     shortName: "KUMSC",
@@ -221,13 +200,11 @@ export const siteConfig = {
     website: "https://mathsclub.ku.edu.np"
   },
 
-  // Event Lead Contact
   eventLead: {
     name: "Sabin Pokharel",
     email: "savinpokharel@gmail.com"
   },
 
-  // Target Audience
   targetAudience: [
     "B.Sc. in Computational Mathematics",
     "Bachelor of Data Science",
@@ -235,7 +212,6 @@ export const siteConfig = {
     "Students from any faculty who want to solve problems"
   ],
 
-  // Budget Allocation
   budgetAllocation: {
     prizes: "50%",
     foodAndDrinks: "20%",
