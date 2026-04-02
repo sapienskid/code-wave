@@ -178,15 +178,20 @@ export const siteConfig = {
   ],
 
   sponsors: [
-    { name: "Your Brand Here", tier: "title", logo: null, website: null },
+    // Title
+    { name: "Tekbay", tier: "title", logo: "/tekbay_logo.svg", website: "https://tekbay.com" },
+    // Platinum - open slots
     { name: "Platinum Partner", tier: "platinum", logo: null, website: null },
     { name: "Platinum Partner", tier: "platinum", logo: null, website: null },
     { name: "Platinum Partner", tier: "platinum", logo: null, website: null },
+    // Gold
+    { name: "GitHub", tier: "gold", logo: "/github_logo.svg", website: "https://github.com" },
     { name: "Gold Partner", tier: "gold", logo: null, website: null },
     { name: "Gold Partner", tier: "gold", logo: null, website: null },
-    { name: "Gold Partner", tier: "gold", logo: null, website: null },
+    // Silver - open slots
     { name: "Silver Partner", tier: "silver", logo: null, website: null },
     { name: "Silver Partner", tier: "silver", logo: null, website: null },
+    // Bronze - open slots
     { name: "Bronze Partner", tier: "bronze", logo: null, website: null },
     { name: "Bronze Partner", tier: "bronze", logo: null, website: null },
   ],

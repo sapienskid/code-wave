@@ -5,7 +5,6 @@ import { siteConfig } from '../data/config';
 const tierConfig = {
   title: {
     label: 'TITLE SPONSOR',
-    sublabel: 'NPR 200,000+ • Limited to 1',
     borderColor: '#a855f7',
     textColor: 'text-purple-400',
     cols: 'grid-cols-1 max-w-2xl mx-auto',
@@ -16,7 +15,6 @@ const tierConfig = {
   },
   platinum: {
     label: 'PLATINUM SPONSORS',
-    sublabel: 'NPR 100,000–150,000 • Limited to 3',
     borderColor: '#8976FB',
     textColor: 'text-[#8976FB]',
     cols: 'grid-cols-1 md:grid-cols-3',
@@ -27,7 +25,6 @@ const tierConfig = {
   },
   gold: {
     label: 'GOLD SPONSORS',
-    sublabel: 'NPR 50,000–75,000',
     borderColor: '#eab308',
     textColor: 'text-yellow-500',
     cols: 'grid-cols-2 md:grid-cols-3',
@@ -38,7 +35,6 @@ const tierConfig = {
   },
   silver: {
     label: 'SILVER SPONSORS',
-    sublabel: 'NPR 20,000–40,000',
     borderColor: '#9ca3af',
     textColor: 'text-gray-400',
     cols: 'grid-cols-2 md:grid-cols-4',
@@ -49,7 +45,6 @@ const tierConfig = {
   },
   bronze: {
     label: 'BRONZE / IN-KIND',
-    sublabel: 'NPR 10,000+ or equivalent',
     borderColor: '#f97316',
     textColor: 'text-orange-500',
     cols: 'grid-cols-2 md:grid-cols-4',
@@ -114,7 +109,7 @@ const Sponsors = () => {
         onMouseLeave={e => e.currentTarget.style.borderColor = config.borderColor + '25'}
       >
         {sponsor.logo ? (
-          <img src={sponsor.logo} alt={sponsor.name} className={`${config.logoHeight} w-auto`} />
+          <img src={sponsor.logo} alt={sponsor.name} className={`${config.logoHeight} w-auto`} style={{ filter: 'brightness(0) invert(1)' }} />
         ) : (
           <div className="flex flex-col items-center gap-2 opacity-30 group-hover:opacity-60 transition-opacity">
             <Plus className={`${config.iconSize}`} style={{ color: config.borderColor }} />
@@ -166,7 +161,7 @@ const Sponsors = () => {
             <div key={tierKey} className="mb-10">
               <div className="text-center mb-5">
                 <h3 className={`text-xs font-mono ${config.textColor} opacity-80 tracking-widest`}>{config.label}</h3>
-                <p className="text-xs text-[#E6E1F0]/30 mt-1">{config.sublabel}</p>
+
               </div>
               <div className={`grid ${config.cols} gap-4`}>
                 {sponsors.map((sponsor, i) => renderSponsorSlot(sponsor, i, config))}
