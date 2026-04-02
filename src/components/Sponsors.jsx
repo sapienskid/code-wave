@@ -55,34 +55,6 @@ const tierConfig = {
   }
 };
 
-const TechPartners = () => (
-  <div className="mb-16">
-    <div className="text-center mb-6">
-      <h3 className="text-xs font-mono text-[#8976FB]/80 tracking-widest">TECH PARTNERS</h3>
-      <p className="text-xs text-[#E6E1F0]/40 mt-1">Providing tools & credits for participants</p>
-    </div>
-    <div className="flex flex-wrap justify-center gap-4">
-      {siteConfig.techPartners.map((partner, i) => (
-        <a
-          key={i}
-          href={partner.website}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="group flex items-center gap-3 px-6 py-3 border border-[#E6E1F0]/15 hover:border-[#8976FB]/50 bg-[#E6E1F0]/2 hover:bg-[#8976FB]/5 transition-all duration-300"
-        >
-          {partner.logo ? (
-            <img src={partner.logo} alt={partner.name} className="h-6 w-auto" />
-          ) : (
-            <span className="text-sm font-bold text-[#E6E1F0]/60 group-hover:text-[#E6E1F0] transition-colors font-mono">
-              {partner.name}
-            </span>
-          )}
-          <ExternalLink className="w-3 h-3 text-[#E6E1F0]/30 group-hover:text-[#8976FB] transition-colors" />
-        </a>
-      ))}
-    </div>
-  </div>
-);
 
 const Sponsors = () => {
   const sponsorsByTier = {
