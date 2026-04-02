@@ -179,7 +179,7 @@ export const siteConfig = {
 
   sponsors: [
     // Title
-    { name: "Tekbay", tier: "title", logo: "/tekbay_logo.svg", website: "https://tekbay.com" },
+    { name: "Tekbay", tier: "title", logo: "/tekbay_logo.svg", website: "https://tekbay.academy/" },
     // Platinum - open slots
     { name: "Platinum Partner", tier: "platinum", logo: null, website: null },
     { name: "Platinum Partner", tier: "platinum", logo: null, website: null },
