@@ -174,7 +174,6 @@ export const siteConfig = {
   // Tech partners (confirmed: GitHub, ElevenLabs, Adobe Firefly)
   techPartners: [
     { name: "GitHub", logo: null, website: "https://github.com" },
-    { name: "ElevenLabs", logo: null, website: "https://elevenlabs.io" },
     { name: "Adobe Firefly", logo: null, website: "https://firefly.adobe.com" }
   ],
 
