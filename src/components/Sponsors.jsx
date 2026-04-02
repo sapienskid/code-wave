@@ -109,7 +109,7 @@ const Sponsors = () => {
         onMouseLeave={e => e.currentTarget.style.borderColor = config.borderColor + '25'}
       >
         {sponsor.logo ? (
-          <img src={sponsor.logo} alt={sponsor.name} className={`${config.logoHeight} w-auto`} style={{ filter: 'brightness(0) invert(1)' }} />
+          <img src={sponsor.logo} alt={sponsor.name} className={`${config.logoHeight} w-auto`}  />
         ) : (
           <div className="flex flex-col items-center gap-2 opacity-30 group-hover:opacity-60 transition-opacity">
             <Plus className={`${config.iconSize}`} style={{ color: config.borderColor }} />
