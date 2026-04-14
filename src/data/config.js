@@ -186,7 +186,7 @@ export const siteConfig = {
     { name: "Platinum Partner", tier: "platinum", logo: null, website: null },
     // Gold
     { name: "GitHub", tier: "gold", logo: "/github_logo.svg", website: "https://github.com" },
-    { name: "Gold Partner", tier: "gold", logo: null, website: null },
+    { name: "Alpen Labs", tier: "gold", logo: "/alpen_logo.svg", website: "https://www.alpenlabs.io/" },
     { name: "Gold Partner", tier: "gold", logo: null, website: null },
     // Silver - open slots
     { name: "Silver Partner", tier: "silver", logo: null, website: null },
